@@ -1,0 +1,19 @@
+<head>
+  <link rel="stylesheet" href="/static/stylesheets/bootstrap.min.css">
+  <link rel="stylesheet" href="/static/stylesheets/login.css"/>
+</head>
+
+<div class="container">
+  <form method="POST" action="/login" class="login-form">
+    <h2 class="login-header">Identity Verification</h2>
+
+    <label for="usernameInput" class="credential">Username</label>
+    <input type="text" id="usernameInput" name="username" class="form-control" placeholder="Username" required autofocus/>
+
+    <label for="passwordInput" class="credential">Password</label>
+    <input type="password" id="passwordInput" name="password" class="form-control" placeholder="Password" required autofocus/>
+
+    <button class="btn" type="submit">Login</button>
+
+    <!-- <a href="/register">Don't have an account? Register now!</a> -->
+</div>

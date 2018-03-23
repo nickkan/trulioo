@@ -1,0 +1,28 @@
+{
+  "name": "CollaborativeComic",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "dependencies": {
+    "bootstrap": "3.3.6",
+    "ng-dialog": "0.5.6",
+    "body-parser": "1.14.2",
+    "cookie-parser": "1.4.1",
+    "ejs": "~2.3.3",
+    "express": "~4.13.1",
+    "express-session": "1.13.0",
+    "angular": "latest",
+    "typings": "latest",
+    "pg": "4.x",
+    "sequelize": "3.19.2",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0",
+    "bcrypt": "0.8.5",
+    "connect-flash": "0.1.1",
+    "jasmine": "2.4.1",
+    "nodemon": "1.9.1",
+    "sendgrid": "2.0.0"
+  }
+}

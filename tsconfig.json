@@ -1,0 +1,48 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "sourceMap": true
+    },
+    "filesGlob": [
+        "./config/*.ts",
+        "./controllers/*.ts",
+        "./public/javascripts/*.ts",
+        "./models/*.ts",
+        "./routes/*.ts",
+        "./services/*.ts",
+        "./app.ts",
+        "./typings/main/ambient/**/*.ts",
+        "./spec/**/*.ts",
+        "!node_modules/**"
+    ],
+    "files": [
+        "./config/passport.ts",
+        "./config/sequelize.ts",
+        "./controllers/profile.ts",
+        "./controllers/register.ts",
+        "./public/javascripts/editPanel.ts",
+        "./public/javascripts/editPanel0.ts",
+        "./public/javascripts/feed.ts",
+        "./public/javascripts/search.ts",
+        "./models/model.ts",
+        "./models/user.ts",
+        "./routes/index.ts",
+        "./services/RegisterService.ts",
+        "./services/UserService.ts",
+        "./app.ts",
+        "./typings/main/ambient/angular/angular.d.ts",
+        "./typings/main/ambient/express/express.d.ts",
+        "./typings/main/ambient/fabricjs/fabricjs.d.ts",
+        "./typings/main/ambient/jasmine/jasmine.d.ts",
+        "./typings/main/ambient/jquery/jquery.d.ts",
+        "./typings/main/ambient/mime/mime.d.ts",
+        "./typings/main/ambient/ng-dialog/ng-dialog.d.ts",
+        "./typings/main/ambient/node/node.d.ts",
+        "./typings/main/ambient/serve-static/serve-static.d.ts",
+        "./spec/base/TestSpec.ts",
+        "./spec/services/UserServiceSpec.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
+}

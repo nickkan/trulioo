@@ -1,0 +1,72 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+/*a {
+  color: #00B7FF;
+}*/
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.thumb {
+    width: 24px;
+    height: 24px;
+    float: none;
+    position: relative;
+    top: 7px;
+}
+
+form .progress {
+    line-height: 15px;
+}
+
+.progress {
+    display: inline-block;
+    width: 100px;
+    border: 3px groove #CCC;
+}
+
+.progress div {
+    font-size: smaller;
+    background: orange;
+    width: 0;
+}
+
+.input-group {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.form-control {
+  border-radius: 4px;
+}
+
+.navbar-inverse {
+  background-color: #1da1f2;
+  border-color:#1da1f2;
+}
+
+.navbar-inverse .navbar-brand {
+  color:white;
+}
+
+.navbar-inverse .navbar-brand:hover {
+  color:#9d9d9d;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+    color:white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+    color:#9d9d9d;
+}
