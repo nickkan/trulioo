@@ -46,19 +46,21 @@ module.exports = function (express) {
     //Routing
     
     router.post('/api/v1/verify', function (req, res) {
-
+        // authenticate
         var results = {};        
 
         console.log("test");
         console.log(util.inspect(req.body, false, null));
 
-        // Make call to external api using data from req.body
+        // Make call to external API using data from req.body
 
         // external api returns true for verified
         results.verified = true
 
         // or false for not verified
         // results.verified = false
+
+        // handle error if external API fails or times out
 
         return res.json(results);
     });
