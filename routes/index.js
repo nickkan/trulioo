@@ -2,9 +2,9 @@
 ///<reference path='../typings/main/ambient/express/express.d.ts'/>
 var passport = require('passport');
 var util = require('util');
-var register = require('../controllers/register');
-var userService = require('../services/UserService');
-var UserService = new userService.UserService();
+// var register = require('../controllers/register');
+// var userService = require('../services/UserService');
+// var UserService = new userService.UserService();
 var pg = require('pg');
 //var connectionString = 'postgres://tktgpsbkoyvbep:CJjoY9wIRXLBgFG3WSsTGJsOrX@ec2-54-225-223-40.compute-1.amazonaws.com:5432/ddsg8nfog95prg?ssl=true';
 var connectionString = 'postgres://postgres:postgres@localhost:5432/team3';
